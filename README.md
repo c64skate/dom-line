@@ -58,3 +58,7 @@ containedDomLine.addLine({
 	y2: 175
 });
 ```
+
+### Live Demo
+
+https://c64skate.github.io/dom-line/example/example.htm
