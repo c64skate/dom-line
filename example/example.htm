@@ -1,0 +1,151 @@
+<html>
+<head>
+	<title>DOM Line Demo</title>
+<style>
+html, body {
+	width: 110%;
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	color: #999;
+}
+
+#container2 {
+	position: absolute;
+	left: 200px;
+	top: 600px;
+	width: 300px;
+	height: 200px;
+	border: 1px dashed #000;
+	background: #c93;
+}
+</style>
+</head>
+<body>
+<div id="container1"></div>
+<div id="container2"></div>
+<h1>Lorem ipsum dolor sit amet</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus porttitor odio et suscipit. Nullam mollis commodo diam sit amet eleifend. Donec porttitor dolor a lacinia dictum. In maximus eros magna, ut hendrerit nibh feugiat at. In rhoncus urna eu augue auctor, eu accumsan leo ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Sed sagittis pharetra elit et aliquam. Suspendisse pharetra dui sed nisi imperdiet, at vulputate orci sodales. Maecenas vehicula sodales est, ac vestibulum mauris rhoncus lobortis. Nunc posuere, mi vitae facilisis finibus, lectus enim fringilla mi, vel laoreet risus felis in ante. Fusce vehicula tortor sodales sem pulvinar, pharetra pharetra ligula molestie. Aliquam ullamcorper sed ante varius hendrerit. Donec quis ante et justo molestie euismod. Suspendisse et mauris blandit metus tristique ultricies.</p>
+
+<p>Morbi sit amet condimentum ante, quis dignissim lectus. Ut in orci placerat metus lobortis dignissim quis eget arcu. Phasellus pretium eleifend quam in ultrices. Nullam ultrices molestie molestie. Mauris semper, felis a luctus fermentum, dui risus lobortis erat, quis commodo diam enim nec quam. Maecenas magna lectus, porta eget risus vitae, bibendum scelerisque nibh. Maecenas consequat, turpis ut dignissim ultrices, ligula arcu fermentum ligula, tincidunt semper elit arcu nec arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi aliquet eros at ligula dignissim ultrices. Vestibulum malesuada purus nisi, et luctus odio posuere at. Aliquam quis nisi gravida, varius leo id, luctus felis. Aenean venenatis tortor a sapien vestibulum venenatis. Proin gravida pretium finibus. In sit amet velit quis est laoreet dapibus. In vel semper elit.</p>
+
+<p>Sed ultricies a neque eu dignissim. Nunc mollis ante sit amet velit elementum, et finibus nibh venenatis. Donec pellentesque rhoncus nulla, nec dictum nisi dictum vitae. Mauris et velit quis enim volutpat convallis. Maecenas at rhoncus nisl. Pellentesque mollis mauris odio, ut blandit quam consequat vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ac dolor velit. Phasellus rhoncus nibh et nunc pharetra, quis pulvinar felis maximus. Phasellus commodo turpis nibh, in accumsan ligula iaculis a. Nulla a quam ac velit porta efficitur. Nam eu dui id tortor eleifend lobortis id sed elit. Suspendisse id tincidunt eros.</p>
+
+<p>Quisque porta augue sed elit vestibulum elementum. Duis vel bibendum eros. Donec iaculis, eros ut condimentum dapibus, arcu metus tempor orci, sit amet condimentum nulla urna nec sem. In varius nisi ac tincidunt gravida. Duis eu tellus at augue auctor mollis sit amet et lorem. Integer dignissim ex ut rutrum laoreet. Nunc rhoncus mi tellus, sit amet malesuada nulla malesuada eget. Praesent pharetra condimentum fermentum. Mauris eget ante finibus, ultricies est fermentum, consectetur turpis. Vestibulum turpis neque, sollicitudin sed vulputate in, eleifend eget ligula. Aliquam suscipit neque non mi dignissim, egestas euismod velit porttitor. Integer aliquet faucibus purus, eu laoreet velit rhoncus finibus. Sed a lobortis nibh, vel volutpat lorem.</p>
+
+<p>Etiam ut orci id tortor gravida fringilla a eget sapien. In auctor vestibulum dolor, at commodo augue vestibulum at. Nunc est sapien, sollicitudin blandit finibus a, tristique eu tortor. Maecenas sed quam cursus, viverra sapien quis, porta sapien. Nam bibendum est ante, sit amet consequat dui tincidunt sit amet. Suspendisse facilisis dolor arcu. Fusce feugiat lacinia velit, nec porttitor ligula malesuada nec. Duis et orci sapien.</p>
+
+<p>Praesent eu libero ac nisi dictum finibus. Ut in neque vitae nisi lobortis mollis. Aliquam quis diam eu nisl accumsan ultricies. Donec in efficitur diam, in luctus mi. Phasellus malesuada non ipsum quis pulvinar. Maecenas sit amet nisl arcu. Aenean efficitur eu tellus vel blandit.</p>
+
+<p>Proin tincidunt, justo a elementum sodales, purus diam ultricies erat, eget tempus turpis urna id ligula. Etiam id sem ullamcorper, pellentesque felis vel, venenatis dolor. Sed quis pellentesque nisl, nec laoreet risus. Etiam diam ligula, lobortis vitae tincidunt id, hendrerit non sapien. Nunc iaculis ut lacus quis ultricies. Aliquam eget massa libero. Sed sit amet magna ut sapien imperdiet egestas. Morbi sollicitudin ex id massa facilisis, in mollis leo feugiat. Maecenas sodales ut nisl a ultricies. Fusce vestibulum vitae elit non rhoncus.</p>
+
+<p>Morbi id imperdiet sapien, in vehicula lacus. Nulla tempor at ipsum non condimentum. Integer porttitor, dui ac eleifend varius, eros lorem vulputate ante, at malesuada sapien est et risus. Praesent id odio at ante fringilla congue quis at ligula. Integer at massa at nibh lobortis mollis sit amet ut risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc dictum mi vitae ante cursus aliquet. Ut convallis pulvinar sollicitudin. Proin efficitur ex a laoreet pellentesque. Vestibulum aliquam blandit dapibus. In vel luctus lacus. Fusce quis mattis massa. Sed venenatis mattis interdum.</p>
+
+<p>Vestibulum id nibh eget purus dignissim pretium. Duis ullamcorper, lacus nec malesuada egestas, magna ante faucibus purus, non auctor nisl nisi sit amet neque. Phasellus sit amet porttitor enim, sit amet porttitor mi. Cras nec varius nisi, id vulputate lectus. Nunc interdum non augue efficitur maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec volutpat mauris sed tempus semper. Ut volutpat mi at lorem cursus, quis vestibulum neque tristique. Vestibulum leo est, hendrerit a justo egestas, porttitor convallis ante. In hac habitasse platea dictumst. Phasellus ac ipsum cursus, pretium purus varius, imperdiet metus.</p>
+
+<p>Vivamus facilisis dui a lorem facilisis, a aliquet mauris hendrerit. Curabitur sagittis eleifend quam. Fusce molestie est metus, id rutrum ex tincidunt vitae. Integer facilisis tellus a feugiat sollicitudin. Quisque sollicitudin, lectus eu mollis condimentum, magna elit lobortis ligula, ac congue ante lectus non diam. Phasellus ut eros bibendum, ultrices mauris non, dignissim enim. Quisque semper auctor dolor aliquam vehicula. Fusce at maximus purus, sit amet posuere elit. Ut a vestibulum tortor. Nunc aliquam metus risus, sit amet dictum urna fermentum et. Curabitur urna sapien, rhoncus non dignissim sit amet, porttitor vestibulum enim. Nullam id neque non massa rhoncus aliquet. In pulvinar, enim non elementum dignissim, urna tortor molestie mauris, eu maximus lacus felis eu orci.</p>
+
+<p>Pellentesque eget tincidunt elit, sit amet rutrum metus. Suspendisse potenti. Sed sodales ante id enim imperdiet volutpat. Aliquam id libero magna. Nunc fringilla nunc quis odio aliquet, quis sollicitudin est lobortis. Fusce tempor eros sed sem posuere scelerisque tempor et justo. Quisque aliquet erat a nibh fringilla maximus. Phasellus ultrices ullamcorper tellus quis laoreet. Cras sapien dolor, ornare in est non, dignissim faucibus elit. Vivamus feugiat metus vitae accumsan volutpat. Aliquam erat volutpat. Donec maximus purus ligula, vel aliquet justo facilisis vitae. Quisque vulputate vitae tellus in mattis.</p>
+
+<p>Integer eget tortor at ipsum ullamcorper mollis sed at lacus. Donec a ligula volutpat, feugiat ligula a, bibendum dui. Integer mi diam, hendrerit non sagittis et, facilisis id eros. Curabitur nec placerat ante. Sed eu orci eu tellus mattis venenatis. Phasellus in lobortis neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam mi libero, mollis at velit posuere, auctor commodo odio.</p>
+
+<p>Aliquam erat volutpat. Integer bibendum gravida accumsan. Quisque ac turpis at est porta scelerisque. Etiam malesuada urna nec feugiat convallis. Morbi quis turpis nec massa venenatis aliquam in non augue. Nam at elit aliquam urna mattis dignissim a et augue. Aenean maximus risus efficitur, consectetur nisl feugiat, mollis ligula.</p>
+
+<p>Quisque non risus aliquam, feugiat enim id, porttitor nunc. Vivamus molestie ut lorem id tristique. Quisque egestas est sed ex dapibus imperdiet. Cras tortor odio, hendrerit quis consectetur id, consectetur vel mi. Nullam in molestie lorem. Maecenas sem tortor, dictum et nunc a, tincidunt tempor purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc quam purus, suscipit quis nibh in, elementum semper ante. Mauris imperdiet quam ut commodo accumsan. Donec feugiat lectus non dolor malesuada, elementum facilisis mauris feugiat. Praesent convallis velit sed erat elementum vulputate. Etiam tellus risus, porta ac est nec, congue aliquam ante. Ut tempor ligula eu consequat porta. In sed luctus lorem, id dictum lectus.</p>
+
+<p>Aliquam accumsan sollicitudin metus, at auctor arcu pharetra non. Nam quis pellentesque urna. Duis mattis sagittis lectus, sodales tincidunt massa. Aenean id felis erat. Nam imperdiet et lacus vitae ultricies. Sed ullamcorper, mi at luctus rutrum, neque est sollicitudin nisl, sit amet pulvinar nulla diam commodo ante. Aliquam nec ligula suscipit, egestas nisi sit amet, dignissim elit. Proin sit amet posuere leo, ac facilisis enim. Nullam ultricies semper est at cursus. Sed a auctor ex. Maecenas suscipit, justo ut convallis rutrum, quam lacus placerat ex, eu feugiat ligula purus quis odio.</p>
+
+<p>Nulla dapibus fermentum massa non malesuada. Sed iaculis lorem at urna aliquam feugiat. Fusce nulla justo, faucibus eget eros non, dapibus tempus lectus. Vestibulum dolor dui, viverra eu tempus in, finibus non ex. Curabitur lobortis neque a metus vehicula, eu viverra quam scelerisque. Proin auctor urna id mauris fringilla, vel pharetra sapien aliquet. Donec auctor vel purus sed accumsan. Donec massa augue, placerat quis sapien ut, varius vulputate elit. Proin maximus sapien nec convallis rhoncus. Duis augue lectus, mattis eget enim id, vehicula fermentum justo. Suspendisse commodo nisl et augue iaculis faucibus.</p>
+
+<p>Etiam gravida odio eget ante vestibulum, non volutpat tellus sagittis. In eleifend nisi at quam rhoncus elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras porta magna vitae sem consectetur congue. Nam vehicula faucibus felis et porttitor. Nullam sed facilisis tellus, et dapibus nisi. Ut vitae tincidunt quam. Nunc et ultricies arcu.</p>
+
+<p>Praesent rutrum erat vestibulum aliquam bibendum. Phasellus faucibus quis diam sit amet pretium. Proin vitae justo sodales, luctus nisl vel, tristique arcu. Fusce finibus luctus metus et malesuada. Morbi suscipit metus vitae ipsum egestas ultrices. Aliquam justo enim, euismod sed diam at, suscipit scelerisque purus. Praesent leo turpis, varius quis nisl eu, egestas lobortis ligula. Nulla laoreet placerat interdum. Nunc id mauris sit amet sem dictum iaculis at id velit.</p>
+
+<p>Donec luctus, est non volutpat vulputate, odio dui bibendum ipsum, a malesuada sem odio eget augue. Donec hendrerit, elit vel vulputate blandit, odio dolor pellentesque lacus, eget sodales diam odio vitae nulla. Cras nisl arcu, vulputate vitae molestie id, aliquam et lacus. Curabitur feugiat porttitor elit eu ultrices. Aenean ornare semper dui eget auctor. Sed eget blandit mi. Pellentesque dapibus libero lectus, et tincidunt nulla sollicitudin eu. Nulla venenatis vitae orci non vulputate. Donec velit justo, fermentum malesuada semper at, pulvinar nec diam. Praesent fringilla porttitor fermentum. Cras sollicitudin quam sed nibh commodo, sit amet laoreet ipsum sagittis. Nunc vitae nisi vel ex laoreet suscipit quis vitae enim. Integer a massa tincidunt magna luctus fermentum non sed dolor. Aenean molestie, metus ac laoreet porta, velit tellus congue sem, eget finibus ipsum neque eu orci. Donec ut dapibus arcu. Donec congue ullamcorper tempor.</p>
+
+<p>Duis commodo nulla quis rutrum porttitor. Duis nec finibus tellus. Morbi tristique lacus eget erat finibus commodo. Praesent elit nibh, consectetur eu porttitor semper, suscipit vitae massa. Vestibulum sed augue tempor, viverra justo id, auctor enim. Aenean vestibulum, ipsum id tempus posuere, dui mi congue orci, in pretium ipsum turpis ut lorem. Phasellus dignissim leo nec felis placerat dictum.</p>
+<script src="../src/dom-line.js"></script>
+<script>
+	// generate color by given index
+	var getColor = function(i) {
+		const hex = "0123456789abcdef";
+		return "#" + hex.substr(i & 15, 1) + hex.substr((i * 5) & 15, 1) + hex.substr((i * 9) & 15, 1);
+	}
+
+	// create line manager for container 1
+	const domLine1 = new DomLine(document.getElementById("container1"));
+
+	// add lines to container 1
+	domLine1.addLine({
+		x1: 800,
+		y1: 100,
+		x2: 1200,
+		y2: 300
+	});
+
+	domLine1.addLine(450, 350, 600, 400, '#33c', false);
+
+	domLine1.addLine(50, 50, 70, 175, '#3c3', false, false);
+
+	domLine1.addLine({
+		x1: 800,
+		y1: 400,
+		x2: 900,
+		y2: 500,
+		color: '#c33',
+		movable: true,
+		showVertices: false
+	});
+
+	var spacing = 25;
+	var numberOfElements = 20;
+	var xOffset = 200;
+	var yOffset = 100;
+	for(var i = numberOfElements - 1; i >= 0; --i) {
+		domLine1.addLine(
+			xOffset,
+			yOffset + i * spacing,
+			xOffset + (numberOfElements - 1 - i) * spacing,
+			yOffset,
+			getColor(i)
+		);
+	}
+
+	var xOffset = 500;
+	var yOffset = 600;
+	for(var i = numberOfElements - 1; i >= 0; --i) {
+		domLine1.addLine(
+			xOffset + numberOfElements * spacing,
+			yOffset + (numberOfElements - i) * spacing,
+			xOffset + numberOfElements * spacing - (numberOfElements - 1 - i) * spacing,
+			yOffset + numberOfElements * spacing,
+			'#000',
+			false,
+			false
+		);
+	}
+
+	// create line manager for container 2
+	const domLine2 = new DomLine(document.getElementById("container2"));
+
+	// add container div to each line
+	domLine2.lineContainerDiv = true;
+
+	// add lines to container 2
+	domLine2.addLine({
+		x1: 25,
+		y1: 25,
+		x2: 275,
+		y2: 175
+	});
+
+	domLine2.addLine({
+		x1: 275,
+		y1: 25,
+		x2: 25,
+		y2: 175
+	});
+</script>
+</body>
+</html>
